@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <title>Perry Weather</title>
+
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="stylesheet" type="text/css" href="/global.css" />
+
+        <style>
+            html {
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- <div style="width: 600px; border-radius: 30px; position:relative" id="staging:pwWidget:2bf27e74-e4d8-4afb-941b-9d4baa2d4300">
+        <script src="https://main.widget-4sb.pages.dev/js/stagingPwIframe.min.js"> </script>
+        <script>
+            StagingPwIframe.createPerryWeatherWidget('2bf27e74-e4d8-4afb-941b-9d4baa2d4300');
+        </script>
+    </div> 
+-->
+        <div style="display: flex; gap: 20px;">
+            <div
+                style="width: 750px; border-radius: 30px; position: relative; width: 50%;"
+                id="pwWidget:2bf27e74-e4d8-4afb-941b-9d4baa2d4300"
+            >
+                <script src="./js/PwIframe.min.js"></script>
+                <script>
+                    PwIframe.createPerryWeatherWidget("2bf27e74-e4d8-4afb-941b-9d4baa2d4300");
+                </script>
+            </div>
+
+            <div
+                style="width: 750px; border-radius: 30px; position: relative; width: 50%;"
+                id="pwWidget:30f04891-1b07-4d62-a2d7-afa54fbf17f8"
+            >
+                <script src="./js/PwIframe.min.js"></script>
+                <script>
+                    PwIframe.createPerryWeatherWidget("30f04891-1b07-4d62-a2d7-afa54fbf17f8");
+                </script>
+            </div>
+        </div>
+
+        <!-- <div style="width: 100%; border-radius: 30px; position:relative" id="pwWidget:2bf27e74-e4d8-4afb-941b-9d4baa2d4300">
+        <script src="https://widget.perryweather.com/js/PwIframe.min.js"> </script>
+        <script>
+            PwIframe.createPerryWeatherWidget('2bf27e74-e4d8-4afb-941b-9d4baa2d4300');
+        </script>
+    </div>  -->
+    </body>
+</html>
